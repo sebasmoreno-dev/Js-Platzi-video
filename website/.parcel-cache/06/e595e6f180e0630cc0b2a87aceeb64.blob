@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>PlatziMediaPlayer.js</title>
+    <link rel="stylesheet" href="b80b0ce33bad4b6608703a7d8ee87eb6">
+    <link rel="stylesheet" href="a4f2b4fa325c81395df9fc3d41cef95c">
+  </head>
+
+  <body>
+    <header>
+      <h1>PlatziMediaPlayer.js</h1>
+      <p>An extensible media player.</p>
+    </header>
+
+    <main class="container">
+      <video class="movie">
+        <source src="314172a105fbcd7e5f46abe7a0685e6e">
+      </video>
+
+      <button id="playButton">Play/Pause</button>
+      <button id="muteButton">Mute/Pause</button>
+    </main>
+
+    <h2>Comments</h2>
+    <ul>
+      <li>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
+        non officiis a repellendus molestias ipsum aspernatur, adipisci
+        temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur odit
+        esse eos.
+      </li>
+      <br>
+      <li>
+        Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
+        exercitationem commodi illo minus id ratione minima? Enim eum
+        consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
+        Sequi.
+      </li>
+      <br>
+      <li>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
+        non officiis a repellendus molestias ipsum aspernatur, adipisci
+        temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur odit
+        esse eos.
+      </li>
+      <br>
+      <li>
+        Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
+        exercitationem commodi illo minus id ratione minima? Enim eum
+        consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
+        Sequi.
+      </li>
+      <br>
+      <li>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
+        non officiis a repellendus molestias ipsum aspernatur, adipisci
+        temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur odit
+        esse eos.
+      </li>
+      <br>
+      <li>
+        Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
+        exercitationem commodi illo minus id ratione minima? Enim eum
+        consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
+        Sequi.
+      </li>
+      <br>
+      <li>
+        Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
+        exercitationem commodi illo minus id ratione minima? Enim eum
+        consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
+        Sequi.
+      </li>
+      <br>
+      <li>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
+        non officiis a repellendus molestias ipsum aspernatur, adipisci
+        temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur odit
+        esse eos.
+      </li>
+      <br>
+      <li>
+        Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
+        exercitationem commodi illo minus id ratione minima? Enim eum
+        consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
+        Sequi.
+      </li>
+      
+
+
+
+    <script type="module" src="a03c594d69a87c8a4e35a5dc0655cc5e"></script>
+  </ul></body>
+</html>

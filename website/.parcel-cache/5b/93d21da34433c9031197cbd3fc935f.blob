@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Decorator</title>
+  </head>
+
+  <body>
+    <a href="/ejercicios/">Go back</a>
+
+    <div style="f25bafbc886f4314819687738e45c597">
+      <label for="email">Email</label>
+      <input id="email">
+    </div>
+
+    <script src="6f8bad3fae70a078fb60536124705aa6"></script>
+  </body>
+</html>
