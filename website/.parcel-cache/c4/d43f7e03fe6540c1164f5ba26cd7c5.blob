@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var AutoPlay = function() {
+    function AutoPlay1() {
+    }
+    AutoPlay1.prototype.run = function(player) {
+        if (!player.media.muted) player.media.muted = true;
+        player.play();
+    };
+    return AutoPlay1;
+}();
+exports["default"] = AutoPlay;

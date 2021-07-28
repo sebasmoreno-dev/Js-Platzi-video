@@ -1,0 +1,29 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _mediaplayer = require("@sebastianmoreno01/mediaplayer");
+var _mediaplayerDefault = parcelHelpers.interopDefault(_mediaplayer);
+var _autoPlay = require("@sebastianmoreno01/mediaplayer/lib/plugins/AutoPlay");
+var _autoPlayDefault = parcelHelpers.interopDefault(_autoPlay);
+var _autoPause = require("@sebastianmoreno01/mediaplayer/lib/plugins/AutoPause");
+var _autoPauseDefault = parcelHelpers.interopDefault(_autoPause);
+var _ads = require("@sebastianmoreno01/mediaplayer/lib/plugins/Ads");
+var _adsDefault = parcelHelpers.interopDefault(_ads);
+const video = document.querySelector('video');
+const player = new _mediaplayerDefault.default({
+    el: video,
+    plugins: [
+        new _autoPlayDefault.default(),
+        new _autoPauseDefault.default(),
+        new _adsDefault.default
+    ]
+});
+const playButton = document.querySelector('#playButton');
+playButton.onclick = ()=>player.togglePlay()
+;
+const muteButton = document.querySelector('#muteButton');
+muteButton.onclick = ()=>{
+    if (player.media.muted) player.unmute();
+    else player.mute();
+};
+if ('serviceWorker' in navigator) navigator.serviceWorker.register(require("/sw.js")).catch((error)=>{
+    console.log(error.message);
+});

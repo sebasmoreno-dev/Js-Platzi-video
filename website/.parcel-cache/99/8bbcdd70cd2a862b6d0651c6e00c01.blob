@@ -1,0 +1,6 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _singleton = require("./singleton");
+var _singletonDefault = parcelHelpers.interopDefault(_singleton);
+const a = _singletonDefault.default.getInstance();
+const b = _singletonDefault.default.getInstance();
+console.log("A es igual a B?", a === b);

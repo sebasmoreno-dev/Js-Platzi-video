@@ -1,0 +1,11 @@
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class Singleton {
+    constructor(){
+    }
+    static getInstance() {
+        if (!Singleton.instance) Singleton.instance = new Singleton();
+        return Singleton.instance;
+    }
+}
+exports.default = Singleton;
